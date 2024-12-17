@@ -1,0 +1,219 @@
+.big{
+    font-size:130px;
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    left: auto;
+    float: left;
+    background-color: black;
+    align-self:center ;
+    text-align: center;
+    top: 1px;
+    color: white;
+}
+.small{
+    font-size: 40px;
+    text-align: center;
+    margin: 2px;
+    background-color: aliceblue;
+    width: 30%;
+    height: 30%;
+    float: left;
+    align-self: center;
+
+    
+}
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center; 
+    width: 60%; 
+    max-width: 1200px; 
+    margin: 20px auto; 
+}
+.small:hover{
+    background-color: rgb(167, 164, 164);
+}
+.play1{
+    float: left;
+    font-size: 15px;
+    color: blue;
+    text-align: left;
+    display: block;
+    position: absolute;
+    left: 3%;
+
+
+}
+.play2{
+    position: absolute;
+    float: right;
+    font-size: 15px;
+    color: red;
+    text-align: left;
+    display: flex;
+    right: 10%;
+    
+}
+.splay1{
+    position: absolute;
+    top: 100px;    
+    float: left;
+    font-size: 15px;
+    color: blue;
+    text-align: left;
+    display: flex;
+}
+.splay2{
+    position: absolute;
+    top: 100px;    
+    float: left;
+    font-size: 15px;
+    color: red;
+    text-align: left;
+    display: flex;
+    right: 10%;
+    
+}
+body{
+    height: 90%;
+    width: 90%;
+}
+button{
+    margin: auto;
+    display: block;
+    border-radius: 12px;
+    font-size: 25px;
+    position: absolute;
+    left: 0;
+    top: 400px;
+}
+button:hover{
+    background-color: brown;
+    color: white;
+}
+#chnp{
+    margin: auto;
+    display: block;
+    border-radius: 12px;
+    font-size: 25px;
+    position: absolute;
+    left: 90%;
+    top: 400px;
+    width: 100px;
+
+}
+
+@media(max-width:768px){
+    p{display: none;}
+     .big{
+        font-size:71px;
+        width: 100px;
+        height: 100px;
+        margin: 2px;
+        left: auto;
+        float: left;
+        background-color: rgb(0, 0, 0);
+        align-self:center ;
+        text-align: center;
+        top: 1px;
+        color: white;
+    }
+    .small{
+        font-size: 10px;
+        text-align: center;
+        margin: 2px;
+        background-color: aliceblue;
+        width: 27%;
+        height: 27%;
+        float: left;
+        align-self: center;
+    
+        
+    }
+    main {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center; 
+        margin: 2px auto;
+    }
+    .small:hover{
+        background-color: rgb(167, 164, 164);
+    }
+    .play1{
+        float: left;
+        font-size: 7px;
+        color: blue;
+        text-align: left;
+        display: block;
+        position: absolute;
+        left: 3%;
+        bottom: 20%;
+    
+    
+    }
+
+    .splay1{
+        position: absolute;
+        bottom:10%;      
+        float: left;
+        font-size: 15px;
+        color: blue;
+        text-align: left;
+        display: flex;
+        left: 3%;
+        bottom: 15%;
+    }
+    .play2{
+        position: absolute;
+        float: right;
+        font-size: 7px;
+        color: red;
+        text-align: left;
+        display: flex;
+        left: 3%;
+        bottom: 10%;
+        
+    }
+    .splay2{
+        position: absolute;
+        bottom:10%;      
+        float: right;
+        font-size: 15px;
+        color: red;
+        text-align: left;
+        display: flex;
+        left: 3%;
+        bottom: 5%;
+    }
+    body{
+        height: 90%;
+        width: 90%;
+    }
+    button{
+        margin: auto;
+        display: block;
+        border-radius: 12px;
+        font-size: 25px;
+        position: absolute;
+        left: 0;
+        bottom: 0%;
+    }
+    button:hover{
+        background-color: rgb(42, 165, 91);
+        color: white;
+    }
+    #chnp{
+        margin: auto;
+        display: block;
+        border-radius: 12px;
+        font-size: 25px;
+        position: absolute;
+        left: 200px;
+        bottom: 0%;
+        width: 100px;
+    
+    }
+    }
